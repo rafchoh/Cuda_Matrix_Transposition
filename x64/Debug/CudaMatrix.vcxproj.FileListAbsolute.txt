@@ -1,0 +1,2 @@
+E:\Lectures\(Master) Computer Systems and Technologies\1 Semester\Zadachi\CudaMatrix\x64\Debug\CudaMatrix.exe
+E:\Lectures\(Master) Computer Systems and Technologies\1 Semester\Kursovi Zadachi\CudaMatrix\x64\Debug\CudaMatrix.exe
