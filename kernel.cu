@@ -76,12 +76,12 @@ int main() {
     cudaMemcpy(h_transMatrix, d_transMatrix, MAT_SIZE * MAT_SIZE * sizeof(int), cudaMemcpyDeviceToHost);
 
     std::cout << "Input Matrix:" << std::endl;
-    //printMatrix(h_inputMatrix, MAT_SIZE, MAT_SIZE);
+    printMatrix(h_inputMatrix, MAT_SIZE, MAT_SIZE);
 
     std::cout << "\n \n";
 
     std::cout << "\nTransposed Matrix:" << std::endl;
-   // printMatrix(h_transMatrix, MAT_SIZE, MAT_SIZE);
+    printMatrix(h_transMatrix, MAT_SIZE, MAT_SIZE);
 
     std::cout << "\nExecution Time is: " << milliseconds << " ms" << std::endl;
 
